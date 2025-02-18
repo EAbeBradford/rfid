@@ -1,3 +1,8 @@
+#include <MFRC522.h>
+#include <MFRC522Extended.h>
+#include <deprecated.h>
+#include <require_cpp11.h>
+
 /*
  * --------------------------------------------------------------------------------------------------------------------
  * Example sketch/program showing how to read data from a PICC to serial.
@@ -34,6 +39,14 @@
  *
  * More pin layouts for other boards can be found here: https://github.com/miguelbalboa/rfid#pin-layout
  */
+//zip
+//step 1: dowlnoad zip (do not unzip) https://github.com/miguelbalboa/rfid
+//step 2: sketch -> include libraries -> add zip
+//setp 3: find the one we just downloaded and say open
+
+//dump file
+//flie -> examples -> mfrc522 -> dumpinfo
+
 
 #include <SPI.h>
 #include <MFRC522.h>
